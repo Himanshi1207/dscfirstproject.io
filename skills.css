@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    background-image: url(skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name {
+    position: absolute;
+    font-size:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    display:block;
+    color:black;
+    left:100;
+    top:-18;
+    text-decoration:none;
+}
+.header ul { 
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    height:80px;
+    line-height: 60px;
+    /* background-color:blue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    
+    
+}
+.header li {
+    float:right;
+    /* border-right: 2px solid black ; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a{
+    display:block;
+    padding: 10 20;
+    color:black;
+    text-decoration:none;
+}
+.header a:hover{
+    font-size:xx-large;
+    text-decoration: underline;
+}
+.active {
+    padding:5px;
+    text-decoration: underline;
+    /* border-radius: 10px; */
+    background-color:lightcoral;
+}
+.hobbies {
+   
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top:-30;
+    display:flex;
+    width:auto;
+}
+.hobby {
+    text-align:center;
+    font-size:80px;
+    padding-top: 150px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skill {
+    list-style: none;
+    position: relative;
+    top: -30;
+}
+.skill-list{
+    position:relative;
+    padding-top: 10;
+    font-size: 50px;
+    padding-left: 500px;
+}
+.star {
+    display:flex;
+    padding:50px;
+}
+span {
+    position:relative;
+    left:20px;
+
+}
+.checked {
+    color: blue;
+   
+}
+.star-list {
+    list-style: none;
+    position:relative;
+    padding-top:-20;
+    font-size: 60px;
+    padding-left: 200px;
+    top:-30px;
+    color:darkblue;
+}
