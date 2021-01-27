@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar {
+    display: flex;
+    background-color: chartreuse;
+    height:80px;
+    /* flex-wrap: wrap; */
+    
+}
+
+.ullist {
+    /* padding-right:10px; */
+    display:flex;
+    /* justify-content:left; */
+    width:40%;
+    text-decoration: none;
+    /* flex-wrap: wrap; */
+
+   }
+.ullist a{
+    text-decoration: none;
+    height:30px;
+}
+.ullist a:hover{
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:15px;
+    
+}
+.list-item{
+    display:flex;
+    font-size: 22px;
+    list-style: none;
+    justify-content:flex-end ;
+    padding:25px;
+    align-content: right;
+    background-color: chartreuse;
+    
+}
+.name {
+    display:flex;
+    font-size: 30px;
+    padding:20px;
+    padding-left: 80px;
+    width:50%;
+}
+.hobbies {
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.hobby {
+    font-size: 50px;
+    padding:20px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-family:cursive ;
+}
+.list {
+    list-style: none;
+    font-size: 30px;
+}
+.list-items {
+    font-size: 45px;
+}
+@media all and (max-width: 1476) {
+    .ullist {
+        /* padding-right:10px; */
+        display:flex;
+        /* justify-content:left; */
+        width:20%;
+        text-decoration: none;
+        /* flex-wrap: wrap; */
+    
+       }
+
+}
