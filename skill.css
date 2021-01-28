@@ -2,10 +2,13 @@
     margin:0;
     padding:0;
 }
+html {
+    font-size: 62.5%;
+}
 .navbar {
     display: flex;
     background-color: chartreuse;
-    height:80px;
+    height:8rem;
     /* flex-wrap: wrap; */
     
 }
@@ -21,31 +24,39 @@
    }
 .ullist a{
     text-decoration: none;
-    height:30px;
+    height:3rem;
 }
 .ullist a:hover{
     color:white;
     background-color: black;
     font-weight: bold;
-    font-size: 25px;
-    border-radius:15px;
+    font-size: 2.5rem;
+    border-radius:1.5rem;
+    
+}
+.active{
+    color:white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-radius:1.5rem;
     
 }
 .list-item{
     display:flex;
-    font-size: 22px;
+    font-size: 2.2rem;
     list-style: none;
     justify-content:flex-end ;
-    padding:25px;
+    padding:2.5rem;
     align-content: right;
     background-color: chartreuse;
     
 }
 .name {
     display:flex;
-    font-size: 30px;
-    padding:20px;
-    padding-left: 80px;
+    font-size: 3rem;
+    padding:2rem;
+    padding-left: 8rem;
     width:50%;
 }
 .skill {
@@ -55,9 +66,9 @@
     align-items: center;
 }
 .skil {
-    font-size: 50px;
-    padding:20px;
-    margin-top: 40px;
+    font-size: 5rem;
+    padding:2rem;
+    margin-top: 4rem;
     font-weight: 700;
     font-family:cursive ;
 }
@@ -66,29 +77,52 @@
 }
 .skills {
     list-style: none;
-    font-size: 30px;
+    font-size: 3rem;
 }
 .skill-list {
     
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 .star {
     
     /* list-style: none; */
 }
 .star-list {
-    font-size: 45px;
-    padding-left: 60px;
+    font-size: 4.5rem;
+    padding-left: 6rem;
     list-style: none;
 
 }
 .checked {
     color:blue;
 }
-@media(max-width: 520) {
-       
-    font-size: 25px;
-    padding-left: 40px;
-    
-
+@media(max-width:996px)
+{
+    html {
+        font-size:55%;
+    }
+}
+@media(max-width:843px)
+{
+    html {
+        font-size:45%;
+    }
+}
+@media(max-width:691px)
+{
+    html {
+        font-size:35%;
+    }
+}
+@media(max-width:537px)
+{
+    html {
+        font-size:25%;
+    }
+}
+@media(max-width:389px)
+{
+    html {
+        font-size:20%;
+    }
 }
