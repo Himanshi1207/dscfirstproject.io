@@ -2,10 +2,13 @@
     margin:0;
     padding:0;
 }
+html {
+    font-size: 62.5%;
+}
 .navbar {
     display: flex;
     background-color: chartreuse;
-    height:80px;
+    height:8rem;
     /* flex-wrap: wrap; */
     
 }
@@ -21,31 +24,40 @@
    }
 .ullist a{
     text-decoration: none;
-    height:30px;
+    height:3rem;
 }
 .ullist a:hover{
     color:white;
     background-color: black;
     font-weight: bold;
-    font-size: 25px;
-    border-radius:15px;
+    font-size: 2.5rem;
+    border-radius:1.5rem;
+    
+}
+.active{
+    color:white;
+    background-color:darkblue;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-radius:1.5rem;
     
 }
 .list-item{
     display:flex;
-    font-size: 22px;
+    font-size: 2.2rem;
     list-style: none;
     justify-content:flex-end ;
-    padding:25px;
+    padding:2.5rem;
     align-content: right;
     background-color: chartreuse;
     
 }
+
 .name {
     display:flex;
-    font-size: 30px;
-    padding:20px;
-    padding-left: 80px;
+    font-size: 3rem;
+    padding:2rem;
+    padding-left: 8rem;
     width:50%;
 }
 .body {
@@ -56,41 +68,52 @@
     
 }
 .image {
-    width:500px;
-    height:500px;
+    widows: 50rem;;
+    height:50rem;
     border-radius: 50%;
-    margin-top: 47px;
+    margin-top: 4.7rem;
 }
 .names {
-    font-size: 50px;
+    font-size: 5rem;
 }
 .description {
     box-sizing: border-box;
-    border:3px solid blue;
+    border:.3rem solid blue;
     width:50%;
     align:center;
-    padding:20px;
-    font-size: 25px;
-    margin-top: 50px;
+    padding:2rem;
+    font-size: 2.5rem;
+    margin-top: 5rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 50px;
+    border-radius: 5rem;
 }
-@media (max-width: 1456) {
-    .ullist {
-        /* padding-right:10px; */
-        display:flex;
-        /* justify-content:left; */
-        width:0%;
-        text-decoration: none;
-        flex-wrap: wrap;
-    
-       }
-       .navbar {
-        display: flex;
-        background-color: chartreuse;
-        height:80px;
-        flex-wrap: wrap;
-        
+@media(max-width:996px)
+{
+    html {
+        font-size:55%;
     }
-
+}
+@media(max-width:843px)
+{
+    html {
+        font-size:45%;
+    }
+}
+@media(max-width:691px)
+{
+    html {
+        font-size:35%;
+    }
+}
+@media(max-width:537px)
+{
+    html {
+        font-size:25%;
+    }
+}
+@media(max-width:389px)
+{
+    html {
+        font-size:20%;
+    }
 }
